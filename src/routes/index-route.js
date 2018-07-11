@@ -5,7 +5,7 @@ const router = express.Router();
 
 router.get('/', (req, res, next) => {
     res.status(200).send({
-        title: "Edson´s Node Store API",
+        title: "Node Store API - Loja do Edson",
         version: "1.0.0"
     });
 });
