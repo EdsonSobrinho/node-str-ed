@@ -15,7 +15,7 @@ bucketPromise.then(
     function (data) {
         // Create params for putObject call
         var objectParams = {
-            Bucket: 'AKIAIQPXOVNTQFBF537A', Key: 'oVsQGU1XPjeIHMKaKV4iI93pGgehBjHxB1WSBJCs', Body: 'Hello World!' };
+            Bucket: '', Key: '', Body: 'Hello World!' };
         // Create object upload promise
         var uploadPromise = new AWS.S3({ apiVersion: '2006-03-01' }).putObject(objectParams).promise();
         uploadPromise.then(
